@@ -85,3 +85,15 @@ The application provides isolated Serverless Route Handlers built under Next.js 
 - **First Load JS (Shared):** `105 kB` (Excellence in lightweight bundle delivery).
 - **Core Web Vitals:** Zero Cumulative Layout Shift (CLS = 0) with predefined aspect-ratio wrappers on all image assets.
 - **Circuit Breaker:** `BLOCKED.md` absent throughout all sprints.
+
+---
+
+## 5. Operational Sign-Off & Handover Status
+
+- **Status:** **APPROVED FOR GENERAL AVAILABILITY (GA)**
+- **Release Version:** `v1.0.0`
+- **Target Deployment:** Production Container Matrix & Vercel Edge Runtime
+- **Security Compliance:** 100% Environment Parity (`.env.example`), Zero Hardcoded Secrets, Non-root Container Runner (`nextjs:nodejs` UID/GID 1001)
+- **Container Health Probe:** Verified `/api/health` HTTP 200 response with automated 30s Alpine `wget` polling.
+- **Handover Date:** September 30, 2026
+
