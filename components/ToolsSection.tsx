@@ -18,13 +18,13 @@ export const ToolsSection: React.FC = () => {
   };
 
   return (
-    <section aria-label="Rumah123 Tools" className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+    <section aria-label="Kusuma Properti Tools" className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
       {/* Light Blue Container Card */}
       <div className="rounded-2xl border border-sky-100 bg-sky-50 p-6 sm:p-8">
         {/* Header */}
         <div className="mb-6">
           <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-gray-900">
-            Rumah123 Tools
+            Kusuma Properti Tools
           </h2>
           <p className="mt-1 text-xs sm:text-sm text-gray-600">
             Banyak fitur bantu kamu dapat properti impian dengan proses yang lebih transparan dan mudah.

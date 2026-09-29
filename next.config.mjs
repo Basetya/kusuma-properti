@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  ...(process.env.BUILD_STANDALONE === 'true' || process.env.NEXT_OUTPUT === 'standalone'
+    ? { output: 'standalone' }
+    : {}),
   images: {
     remotePatterns: [
       {

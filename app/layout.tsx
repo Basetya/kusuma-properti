@@ -3,32 +3,33 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'),
-  title: 'Situs Jual Beli Properti Terdepan di Indonesia | Rumah123 Clone',
+  title: 'Kusuma Properti - Situs Jual Beli & Sewa Properti Terpercaya',
   description:
-    'Cari rumah, apartemen, tanah, ruko, dan properti baru dijual atau disewa di seluruh Indonesia dengan mudah di Rumah123.',
+    'Cari rumah, apartemen, tanah, ruko, dan properti baru dijual atau disewa di seluruh Indonesia dengan mudah dan terpercaya bersama Kusuma Properti.',
   keywords: [
-    'rumah123',
+    'kusuma properti',
     'jual beli properti',
     'rumah dijual',
     'sewa apartemen',
     'kpr rumah',
     'properti indonesia',
+    'agen properti terpercaya',
   ],
-  authors: [{ name: 'PT Web Marketing Indonesia' }],
+  authors: [{ name: 'PT Kusuma Properti Indonesia' }],
   openGraph: {
-    title: 'Situs Jual Beli Properti Terdepan di Indonesia | Rumah123 Clone',
+    title: 'Kusuma Properti - Situs Jual Beli & Sewa Properti Terpercaya',
     description:
-      'Cari rumah, apartemen, tanah, ruko, dan properti baru dijual atau disewa di seluruh Indonesia dengan mudah di Rumah123.',
+      'Cari rumah, apartemen, tanah, ruko, dan properti baru dijual atau disewa di seluruh Indonesia dengan mudah dan terpercaya bersama Kusuma Properti.',
     type: 'website',
     locale: 'id_ID',
-    siteName: 'Rumah123 Clone',
+    siteName: 'Kusuma Properti',
     url: '/',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Situs Jual Beli Properti Terdepan di Indonesia | Rumah123 Clone',
+    title: 'Kusuma Properti - Situs Jual Beli & Sewa Properti Terpercaya',
     description:
-      'Cari rumah, apartemen, tanah, ruko, dan properti baru dijual atau disewa di seluruh Indonesia dengan mudah di Rumah123.',
+      'Cari rumah, apartemen, tanah, ruko, dan properti baru dijual atau disewa di seluruh Indonesia dengan mudah dan terpercaya bersama Kusuma Properti.',
   },
   robots: {
     index: true,

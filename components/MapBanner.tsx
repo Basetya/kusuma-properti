@@ -25,7 +25,7 @@ export const MapBanner: React.FC = () => {
                 Fitur Peta Pintar
               </div>
               <h2 className="mt-1 text-base font-bold sm:text-lg lg:text-xl text-white">
-                Jelajahi properti di Jakarta lewat peta interaktif Rumah123.
+                Jelajahi properti di Jakarta lewat peta interaktif Kusuma Properti.
               </h2>
               <p className="mt-0.5 text-xs text-blue-100">
                 Cari hunian impian dengan melihat langsung fasilitas sekitar, stasiun MRT/LRT, dan akses tol terdekat.

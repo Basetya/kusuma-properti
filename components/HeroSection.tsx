@@ -18,12 +18,12 @@ const BANNER_SLIDES = [
   {
     id: 1,
     title: 'Cluster Eksklusif di Serpong - Diskon DP Hingga 50 Juta',
-    imageUrl: 'https://placehold.co/1600x500/0b2545/ffffff/png?text=Rumah123+Promo+Hunian+Eksklusif',
+    imageUrl: 'https://placehold.co/1600x500/0b2545/ffffff/png?text=Kusuma+Properti+Hunian+Eksklusif',
   },
   {
     id: 2,
     title: 'Festival Properti Indonesia 2026 - Bunga KPR Spesial 2.75%',
-    imageUrl: 'https://placehold.co/1600x500/013a63/ffffff/png?text=Festival+KPR+Rumah123+2026',
+    imageUrl: 'https://placehold.co/1600x500/013a63/ffffff/png?text=Festival+KPR+Kusuma+Properti+2026',
   },
 ];
 
@@ -84,6 +84,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       url.searchParams.set('type', tab.toLowerCase().replace(/\s+/g, '-'));
       window.history.replaceState({}, '', url.toString());
 
+      window.dispatchEvent(
+        new CustomEvent('kusuma:search', {
+          detail: { query: query.trim(), tab },
+        })
+      );
       window.dispatchEvent(
         new CustomEvent('rumah123:search', {
           detail: { query: query.trim(), tab },
@@ -163,10 +168,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           <div className="mb-4 text-center sm:text-left">
             <div className="mb-2 inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-bold text-amber-700">
               <Sparkles className="h-3.5 w-3.5 text-amber-600" />
-              Portal Properti #1 di Indonesia
+              Portal Properti Terpercaya di Indonesia
             </div>
             <h1 className="text-xl font-extrabold tracking-tight text-gray-900 sm:text-2xl lg:text-3xl">
-              Jual Beli dan Sewa Properti Jadi Mudah
+              Jual Beli dan Sewa Properti Jadi Mudah Bersama Kusuma Properti
             </h1>
             <p className="mt-1 text-xs sm:text-sm text-gray-500">
               Temukan ribuan hunian idaman, ruko, tanah, dan apartemen dari agen terverifikasi di seluruh Indonesia.
@@ -206,7 +211,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Lokasi, keyword, area, project, developer..."
+                placeholder="Cari lokasi, keyword, area, project di Kusuma Properti..."
                 className="w-full rounded-xl border border-gray-300 py-3.5 pl-12 pr-4 text-sm text-gray-800 placeholder-gray-400 transition duration-200 focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600"
               />
             </div>

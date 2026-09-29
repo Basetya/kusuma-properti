@@ -50,13 +50,18 @@ export const Navbar: React.FC = () => {
             </button>
 
             {/* Brand Logo */}
-            <Link href="/" className="flex items-center gap-1.5 focus:outline-none">
-              <span className="text-2xl font-black tracking-tight text-white">
-                rumah<span className="text-red-500">123</span>
-              </span>
-              <span className="hidden text-[10px] font-medium uppercase tracking-wider text-gray-300 sm:inline-block">
-                .com
-              </span>
+            <Link href="/" className="flex items-center gap-2.5 focus:outline-none group">
+              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-blue-600 text-white shadow-sm transition-transform group-hover:scale-105">
+                <Building2 className="h-5 w-5" />
+              </div>
+              <div className="flex flex-col">
+                <span className="text-xl font-black tracking-tight text-white leading-none">
+                  Kusuma<span className="text-blue-400">Properti</span>
+                </span>
+                <span className="text-[9px] font-medium tracking-widest uppercase text-gray-400">
+                  Real Estate Portal
+                </span>
+              </div>
             </Link>
           </div>
 

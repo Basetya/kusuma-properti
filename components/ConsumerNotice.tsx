@@ -19,26 +19,26 @@ export const ConsumerNotice: React.FC = () => {
               Layanan Pengaduan Konsumen
             </h2>
             <p className="mt-1.5 text-xs sm:text-sm text-gray-500 leading-relaxed">
-              Komitmen kami untuk selalu memberikan pelayanan terbaik, aman, dan transparan bagi seluruh pengguna Rumah123.
+              Komitmen kami untuk selalu memberikan pelayanan terbaik, aman, dan transparan bagi seluruh pengguna Kusuma Properti.
             </p>
           </div>
 
           {/* Right Side: 2 Columns / Stacked Contact Cards */}
           <address className="not-italic grid grid-cols-1 gap-4 sm:grid-cols-2 lg:flex-1 lg:max-w-2xl">
-            {/* 1. PT Web Marketing Indonesia */}
+            {/* 1. PT Kusuma Properti Indonesia */}
             <div className="rounded-xl border border-gray-100 bg-gray-50/60 p-4 transition-colors hover:border-blue-200 hover:bg-blue-50/30">
               <span className="text-xs font-bold text-gray-900 block mb-1">
-                PT Web Marketing Indonesia
+                PT Kusuma Properti Indonesia
               </span>
               <p className="text-xs text-gray-500 mb-2.5">
-                Pengaduan dan bantuan operasional platform Rumah123
+                Pengaduan dan bantuan operasional platform Kusuma Properti
               </p>
               <a
-                href="mailto:infopengaduan@rumah123.com"
+                href="mailto:bantuan@kusumaproperti.com"
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-600 hover:text-blue-800 transition-colors"
               >
                 <Mail className="h-3.5 w-3.5 text-blue-500" />
-                <span>infopengaduan@rumah123.com</span>
+                <span>bantuan@kusumaproperti.com</span>
               </a>
             </div>
 

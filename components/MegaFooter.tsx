@@ -11,6 +11,7 @@ import {
   Mail,
   Phone,
   Smartphone,
+  Building2,
 } from 'lucide-react';
 import {
   directoryTabs,
@@ -123,19 +124,27 @@ export const MegaFooter: React.FC = () => {
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-12">
             {/* Left Brand Block (Cols 1-4) */}
             <div className="lg:col-span-4 space-y-4">
-              <Link href="/" className="inline-block focus:outline-none">
-                <span className="text-2xl font-black tracking-tight text-white">
-                  rumah<span className="text-red-500">123</span>
-                </span>
+              <Link href="/" className="inline-flex items-center gap-2.5 focus:outline-none group">
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-blue-600 text-white shadow-sm transition-transform group-hover:scale-105">
+                  <Building2 className="h-5 w-5" />
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-xl font-black tracking-tight text-white leading-none">
+                    Kusuma<span className="text-blue-400">Properti</span>
+                  </span>
+                  <span className="text-[9px] font-medium tracking-widest uppercase text-gray-400">
+                    Real Estate Portal
+                  </span>
+                </div>
               </Link>
               <p className="text-xs leading-relaxed text-gray-400">
-                Rumah123 adalah situs teknologi jual beli properti terdepan di Indonesia yang telah melayani jutaan masyarakat Indonesia sejak 2007 untuk menemukan hunian impian, aset investasi, dan pembiayaan KPR.
+                Kusuma Properti adalah platform teknologi jual beli dan sewa properti terpercaya di Indonesia yang berkomitmen membantu masyarakat menemukan hunian impian, aset investasi, dan solusi pembiayaan properti terbaik.
               </p>
               <div className="flex items-start gap-2.5 rounded-xl border border-gray-800 bg-white/5 p-3 text-xs text-amber-200">
                 <Award className="h-5 w-5 flex-shrink-0 text-amber-400 mt-0.5" />
                 <p className="text-[11px] leading-tight">
                   <strong className="font-semibold text-white block">Penghargaan Nasional:</strong>
-                  E-commerce dan Platform Online Terbaik BI Awards
+                  E-commerce dan Platform Online Terbaik Indonesia Property Awards
                 </p>
               </div>
             </div>
@@ -236,7 +245,7 @@ export const MegaFooter: React.FC = () => {
                 <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-lg bg-white">
                   <Image
                     src="https://placehold.co/120x120?text=QR+Code"
-                    alt="Scan QR Code Rumah123"
+                    alt="Scan QR Code Kusuma Properti"
                     fill
                     sizes="64px"
                     className="object-cover"
@@ -249,7 +258,7 @@ export const MegaFooter: React.FC = () => {
                   <div className="flex flex-col gap-1">
                     <Link
                       href="#"
-                      aria-label="Download Rumah123 di Google Play Store"
+                      aria-label="Download Kusuma Properti di Google Play Store"
                       className="inline-flex items-center gap-1.5 text-[11px] font-semibold text-emerald-400 hover:text-emerald-300"
                     >
                       <Smartphone className="h-3.5 w-3.5" />
@@ -257,7 +266,7 @@ export const MegaFooter: React.FC = () => {
                     </Link>
                     <Link
                       href="#"
-                      aria-label="Download Rumah123 di Apple App Store"
+                      aria-label="Download Kusuma Properti di Apple App Store"
                       className="inline-flex items-center gap-1.5 text-[11px] font-semibold text-blue-400 hover:text-blue-300"
                     >
                       <Smartphone className="h-3.5 w-3.5" />
@@ -278,7 +287,7 @@ export const MegaFooter: React.FC = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-gray-400">
-              © 99.co 2014 — 2026 Rumah123 (PT Web Marketing Indonesia) merupakan bagian dari 99 Group.
+              © 2026 Kusuma Properti. All rights reserved.
             </p>
 
             <button

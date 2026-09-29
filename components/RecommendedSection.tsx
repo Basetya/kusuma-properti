@@ -37,8 +37,10 @@ export const RecommendedSection: React.FC = () => {
       }
     };
 
+    window.addEventListener('kusuma:search', handleSearchEvent);
     window.addEventListener('rumah123:search', handleSearchEvent);
     return () => {
+      window.removeEventListener('kusuma:search', handleSearchEvent);
       window.removeEventListener('rumah123:search', handleSearchEvent);
     };
   }, []);

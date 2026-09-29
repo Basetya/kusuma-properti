@@ -44,19 +44,24 @@
 - [x] Task 11.2: Environment & Security Audit (.gitignore strict .env blocking, runtime process.env parity)
 - [x] Task 11.3: Final Operational Ledger & Closeout (All tasks [x], RELEASE_NOTES.md operational sign-off, Ralph loop exit 0)
 
+## Sprint 12: Rebranding to "Kusuma Properti" & Production Deployment Preparation (GitHub & Vercel)
+- [x] Task 12.1: Rebranding Audit & Execution (Updated `app/layout.tsx`, `Navbar.tsx`, `HeroSection.tsx`, `ConsumerNotice.tsx`, `MegaFooter.tsx`)
+- [x] Task 12.2: Git & Vercel Deployment Configuration (Audited `.gitignore`, created `vercel.json`, documented `docs/DEPLOYMENT_GUIDE.md`)
+- [x] Task 12.3: Production Build Gate & Commit (Exit Code 0 across lint and build, verified local `next start`, clean git state)
+
 ### Release Confirmation Ledger
-- **Release Version:** `v1.0.0` (General Availability Production Release)
-- **Target Channel:** Production Release Handover & Containerized Deployment
-- **Build Status:** Exit Code 0 (Next.js 15.1.0 App Router Standalone)
+- **Brand Identity:** **Kusuma Properti** (Situs Jual Beli & Sewa Properti Terpercaya)
+- **Release Version:** `v1.0.0` (Production Rebranded Release)
+- **Target Channels:** GitHub Repository & Vercel Cloud Serverless Deployment
+- **Build Status:** Exit Code 0 (Next.js 15.1.0 App Router)
 - **First Load JS (Shared):** 105 kB
 - **Static Pages:** `/` (17.1 kB), `/_not-found` (145 B)
 - **Dynamic API Routes:** `/api/properties` (145 B), `/api/articles` (145 B), `/api/health` (145 B)
 - **ESLint Status:** 0 errors, 0 warnings
-- **Health Check Probe:** Verified HTTP 200 (`{ "status": "healthy", "timestamp": "...", "version": "1.0.0" }`)
-- **Containerization:** Multi-stage Alpine Dockerfile with standalone node runner & health check
-- **Operational Sign-off:** Completed & Approved for GA
+- **Local Server (`npm run start`):** Verified HTTP 200 on `/api/health`
 - **Circuit Breaker:** `BLOCKED.md` absent
 - **Gatekeeper:** `ralph.ps1` cleared
+
 
 
 

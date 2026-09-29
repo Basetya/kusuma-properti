@@ -125,7 +125,7 @@ export const corporateColumns = {
     { label: 'SRX', href: '#' },
   ],
   kontak: {
-    email: 'info@rumah123.com',
-    phone: '+62 21 30496123',
+    email: 'info@kusumaproperti.com',
+    phone: '+62 21 8060-0999',
   },
 };

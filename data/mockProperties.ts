@@ -197,7 +197,7 @@ export const toolsData: ToolItem[] = [
   {
     id: 'tool-consult',
     title: 'Kami Siap Membantu',
-    description: 'Konsultasikan properti pilihanmu di sini bersama tim spesialis Rumah123 secara gratis.',
+    description: 'Konsultasikan properti pilihanmu di sini bersama tim spesialis Kusuma Properti secara gratis.',
     ctaText: 'Mulai Konsultasi',
     href: '#',
     badge: 'Gratis',

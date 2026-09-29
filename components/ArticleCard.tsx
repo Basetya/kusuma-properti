@@ -21,8 +21,8 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
   category,
   date,
   readTime = '4 mnt baca',
-  imageUrl = 'https://placehold.co/600x380/png?text=Rumah123+Artikel',
-  author = 'Redaksi Rumah123',
+  imageUrl = 'https://placehold.co/600x380/png?text=Kusuma+Properti+Artikel',
+  author = 'Redaksi Kusuma Properti',
   href = '#',
 }) => {
   return (

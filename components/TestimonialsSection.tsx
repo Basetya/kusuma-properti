@@ -6,7 +6,7 @@ import { clientTestimonials } from '@/data/editorialData';
 export const TestimonialsSection: React.FC = () => {
   return (
     <section
-      aria-label="Cerita Sukses Bersama Rumah123"
+      aria-label="Cerita Sukses Bersama Kusuma Properti"
       className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8"
     >
       {/* Header */}
@@ -16,7 +16,7 @@ export const TestimonialsSection: React.FC = () => {
           <span>TESTIMONI PENGGUNA</span>
         </div>
         <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-gray-900">
-          Cerita Sukses Bersama Rumah123
+          Cerita Sukses Bersama Kusuma Properti
         </h2>
         <p className="mt-1 text-xs sm:text-sm text-gray-500">
           Pengalaman nyata para pembeli, investor, dan pemilik properti yang mewujudkan impian hunian mereka.
