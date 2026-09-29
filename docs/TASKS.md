@@ -34,16 +34,24 @@
 - [x] Task 9.2: Git Branch Handover & Release Tagging (v1.0.0-rc1 on main)
 - [x] Task 9.3: Ralph Loop Completion Protocol (Clean Exit Code 0, Circuit Breaker Lock Verified)
 
+## Sprint 10: Production Release Packaging & Final Containerization
+- [x] Task 10.1: Health Check Endpoint Verification (`/api/health` returning 200 with structured JSON)
+- [x] Task 10.2: Docker Containerization & Build Verification (multi-stage Alpine Dockerfile, `.dockerignore`, `output: 'standalone'`)
+- [x] Task 10.3: Documentation & Release Sign-Off (Updated `docs/TASKS.md`, `RELEASE_NOTES.md`, and clean working tree)
+
 ### Release Confirmation Ledger
-- **Release Version:** `v1.0.0-rc1` (Release Candidate 1)
-- **Target Channel:** Production Release Handover
-- **Build Status:** Exit Code 0 (Next.js 15.1.0 App Router)
+- **Release Version:** `v1.0.0-rc1` (Release Candidate 1) / Production Release
+- **Target Channel:** Production Release Handover & Containerized Deployment
+- **Build Status:** Exit Code 0 (Next.js 15.1.0 App Router Standalone)
 - **First Load JS (Shared):** 105 kB
-- **Static Pages:** `/` (17.1 kB), `/_not-found` (142 B)
-- **Dynamic API Routes:** `/api/properties` (142 B), `/api/articles` (142 B)
+- **Static Pages:** `/` (17.1 kB), `/_not-found` (145 B)
+- **Dynamic API Routes:** `/api/properties` (145 B), `/api/articles` (145 B), `/api/health` (145 B)
 - **ESLint Status:** 0 errors, 0 warnings
+- **Health Check Probe:** Verified HTTP 200 (`{ "status": "healthy", "timestamp": "...", "version": "1.0.0" }`)
+- **Containerization:** Multi-stage Alpine Dockerfile with standalone node runner & health check
 - **Circuit Breaker:** `BLOCKED.md` absent
 - **Gatekeeper:** `ralph.ps1` cleared
+
 
 
 
