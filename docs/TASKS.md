@@ -24,5 +24,11 @@
 - [x] Task 7.3: Error Boundary & 404 Fallback Hardening
 - [x] Task 7.4: Final Pre-Flight Build Gatekeeper
 
+## Sprint 8: Final Release Packaging & Production Staging Handover
+- [x] Task 8.1: Production Deployment Manifest (README.md & docs/DEPLOYMENT.md)
+- [x] Task 8.2: Repository Hygiene & Staging Cleanliness
+- [x] Task 8.3: Final Release Candidate Build Audit
+
+
 
 
